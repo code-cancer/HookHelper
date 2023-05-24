@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#4D000000"
+    tools:parentTag="android.widget.LinearLayout">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_desc"
+        android:layout_width="200dp"
+        android:textColor="#CCFFFFFF"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="获取Android-id"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <View
+        android:layout_width="1dp"
+        android:background="#CCFFFFFF"
+        android:layout_height="match_parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_count"
+        android:layout_width="60dp"
+        android:textColor="#CCFFFFFF"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="3次"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</merge>

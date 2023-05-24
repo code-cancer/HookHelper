@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HookHelper</string>
+    <string name="home_bottom_nav_title_log">日志</string>
+    <string name="home_bottom_nav_title_settings">配置</string>
+    <string name="float_btn_des">配置生效开关</string>
+</resources>
